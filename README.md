@@ -140,7 +140,7 @@ akash query deployment get --owner $AKASH_ACCOUNT_ADDRESS --node $AKASH_NODE --d
 ```
 akash query market bid list --owner=$AKASH_ACCOUNT_ADDRESS --node $AKASH_NODE --dseq $AKASH_DSEQ
 ```
-в списке возвращаемом командой выбираем провайдера
+в списке возвращаемом командой выбираем нашего провайдера (тот, что указан под полученным ранее dseq=2252882)
 и присваиваем переменной его адрес
 ```
 export AKASH_PROVIDER=akash14c4ng96vdle6tae8r4hc2w4ujwrshdddtuudk0
